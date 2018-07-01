@@ -1,0 +1,15 @@
+# ignore compiled files
+*.pyc
+*.gitignore~
+
+# ignore ide files
+*.idea
+
+# ignore downloaded files
+download/
+
+# ignore log files
+tensorboard_logs/
+
+#ignore utility files
+util_files/

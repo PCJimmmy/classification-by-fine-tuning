@@ -1,0 +1,30 @@
+epochs:
+  desc: number of epochs for training
+  val: 300
+batch_size:
+  desc: size of each batch for training
+  val: 32
+training_images_path:
+  desc: file containing the path of the training images
+  val: ./util_files/training_images_path.txt
+validation_images_path:
+  desc: file containing the path of the validation images
+  val: ./util_files/validation_images_path.txt
+img_size:
+  desc: input size of the image (size x size)
+  val: 256
+classes_file:
+  desc: file containing the classes file
+  val: ./util_files/classes.txt
+data_path:
+  desc: path to the data
+  val: ../../data/food
+model_id:
+  desc: name with which model will be saved
+  val: food
+cls2id:
+  desc: class to id dictionary
+  val: ./util_files/cls2id.json
+id2cls:
+  desc: id to class dictionary
+  val: ./util_files/id2cls.json
