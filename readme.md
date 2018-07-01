@@ -11,8 +11,8 @@ How to make it work :
     * fine_tune = False. In this case only the last convolution layer is trained rest inception model is set to 
     trainable = False
     * fine_tune = True. In this case last added convolution layer along with the last InceptionV3 block is trained.
-<br>
-_fine_tune parameter can be set in training.py file._
+    <br>
+*fine_tune parameter can be set in training.py file.*
 * before training you need 3 files. _classes.txt_, _training_images_path.txt_ and _validation_images_path.txt_ inside 
 util_files 
 folder. Script to create these files are available.
